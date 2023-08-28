@@ -1,16 +1,16 @@
-# Gold Correctness
+#                           Chính xác bằng vàng                         
 
-For information on setting up or using Gold, see [these docs](docs/README.md).
+                         Để biết thông tin về thiết lập hoặc sử dụng vàng, hãy xem.                             
 
-For an architectural overview, see:
+Cho một cái nhìn tổng quan kiến trúc.
 <https://docs.google.com/document/d/1U7eBzYrZCPx24Lp9JH2scKj3G8Gr8GRtQJZRhdigyRQ/edit>
 
-To run Gold locally, see:
+Để chạy Gold locally, xem này:
 <https://skia.googlesource.com/infra-internal/+show/c6fad0bec78c6768ce7e4187606325216dd438ed/scripts/start-gold-chrome-gpu.sh>
 
-## Backend Storage
+##                                 Lưu sau                               
 
-Gold uses [CockroachDB](https://www.cockroachlabs.com/get-cockroachdb/) to store all data necessary
-for running the backend servers. (Caveat: We are in the middle of a migration towards this goal.)
+Dùng vàng  
+Vì đã chạy các máy chủ hậu trường. (Caveat: Chúng ta đang ở giữa một cuộc di cư hướng tới mục tiêu này.)
 
-For production-specific advice, see docs/PROD.md.
+Để tư vấn cụ thể về sản xuất, hãy xem bác sĩ/PROD.md.
